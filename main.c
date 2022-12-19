@@ -8,9 +8,11 @@
  * Return: 0
  */
 
-int main(int argc, const char **argv[])
+int main(int argc, const char **argv)
 {
     int i = 0;
+
+
     while( i < argc)
     {
             printf("argv[%d] : %s\n", i, argv[i]);

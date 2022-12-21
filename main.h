@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <sys/types.h>
-// #include <sys/wait.h>
+#include <sys/wait.h>
 #include <sys/stat.h>
 #include <errno.h>
 #include <fcntl.h>
@@ -17,7 +17,7 @@
 #define TOK_DELIM " \t\r\n\a"
 
 /* Points to an array of pointers to strings called the "environment" */
-extern char **_environ;
+extern char **environ;
 
 
 /**

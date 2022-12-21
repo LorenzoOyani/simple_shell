@@ -17,7 +17,7 @@
 #define TOK_DELIM " \t\r\n\a"
 
 /* Points to an array of pointers to strings called the "environment" */
-extern char **environ;
+extern char **_environ;
 
 
 /**

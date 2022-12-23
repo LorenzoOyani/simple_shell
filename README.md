@@ -13,3 +13,4 @@
     <li><em>Terminate</em> : </li>
 </ol>
 
+- ***Initialize***: In this step, a typical shell would read and execute its configuration files. These change aspects of the shell's behaviour.
